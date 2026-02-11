@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -35,6 +36,7 @@ function App() {
           <Route path="generate" element={<Generate />} />
         </Route> 
       </Routes>
+      <Analytics />
     </Router>
   );
 }
