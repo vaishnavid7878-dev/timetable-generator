@@ -1,0 +1,55 @@
+.landing-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.landing-header {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 80px 20px;
+}
+
+.landing-header h1 {
+  font-size: 50px;
+}
+
+.landing-buttons button {
+  margin: 10px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  background: rgb(13, 96, 111);
+  color: #d0c3c1;
+  font-weight: bold;
+}
+
+.landing-buttons button:hover {
+  background: #f0f0f0;
+}
+
+.landing-features {
+  padding: 50px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.feature-card {
+  background: #50c0b6;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.landing-footer {
+  background: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 40px;
+}
