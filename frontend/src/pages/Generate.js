@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import jsPDF from "jspdf";
-import autoTable, { Cell } from "jspdf-autotable";
+import autoTable, { } from "jspdf-autotable";
 //import { useNavigate } from "react-router-dom";
 
 export default function Generate() {
