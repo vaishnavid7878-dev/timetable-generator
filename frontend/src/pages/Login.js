@@ -57,7 +57,14 @@ function Login() {
   };
 
   return (
-    <div className="login-container">
+    <div className="login-container"
+      style={{
+        backgroundImage: 'url(${bgImage})',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+      >
       <div className="login-box">
 
         {!showForgot ? (
