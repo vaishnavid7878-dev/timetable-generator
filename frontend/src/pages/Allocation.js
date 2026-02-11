@@ -84,7 +84,7 @@ export default function Allocation() {
   };
 
   // ================= ADD / UPDATE =================
-  {/*const addOrUpdateAllocation = async () => {
+  /*const addOrUpdateAllocation = async () => {
     if (!teacher || !subject || !hours) {
       alert("Please fill all fields");
       return;
@@ -123,7 +123,7 @@ export default function Allocation() {
     fetchAllocations();
     resetForm();
   };
-  */}
+  */
 
   // ================= ADD / UPDATE =================
   const addOrUpdateAllocation = async () => {
