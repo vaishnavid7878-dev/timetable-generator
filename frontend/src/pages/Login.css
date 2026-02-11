@@ -1,11 +1,7 @@
 .login-container {
   height: 100vh;
   width: 100%;
-<<<<<<< HEAD
-  background-image: url("frontend/public/image.png");
-=======
-  background-image: url("/frontend/public/image.png"); 
->>>>>>> 1570a538e81ea436e4d13e6364b37e215d153d0b
+  background-image: url("/image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
