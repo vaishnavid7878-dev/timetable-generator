@@ -1,6 +1,13 @@
 .login-container {
   height: 100vh;
   width: 100%;
+<<<<<<< HEAD
+=======
+  background-image: url("/image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+>>>>>>> 9e181d7b222d3aa77de23c9a775e191a5fe7f55f
   
   display: flex;
   align-items: center;
