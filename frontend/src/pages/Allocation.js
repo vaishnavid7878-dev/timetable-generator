@@ -42,7 +42,6 @@ export default function Allocation() {
     fetchSubjects();
     fetchDivisions();
     fetchClassrooms();
-    fetchDivisions();
     fetchLabs();
     fetchAllocations();
   }, [token]);
