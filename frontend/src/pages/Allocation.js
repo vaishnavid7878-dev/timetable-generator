@@ -17,7 +17,7 @@ export default function Allocation() {
   const [divisions, setDivisions] = useState([]);
   const [division, setDivision] = useState("");
 
-  const [formData, setFormData] = useState({
+  const [] = useState({
     teacher_id: "",
     subject_id: "",
     classroom_id: "",

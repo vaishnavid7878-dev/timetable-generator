@@ -10,7 +10,7 @@ export default function Teachers() {
   }, []);
 
   const [subject, setSubject] = useState("");
-  const [editIndex, setEditIndex] = useState(null);
+  const [ setEditIndex ] = useState(null);
   const [selectedTeacher, setSelectedTeacher] = useState(null);
   const [classroomInput, setClassroomInput] = useState("");
   const [maxLoad, setMaxLoad] = useState("");
@@ -35,7 +35,7 @@ export default function Teachers() {
     .catch(err => console.error(err));
 }, [token]);
 
-  {/*const addOrUpdateTeacher = () => {
+  /*const addOrUpdateTeacher = () => {
        fetch(API, {
   method: "POST",
   headers: {
@@ -63,7 +63,7 @@ export default function Teachers() {
   .then(res => res.json())
   .then(data => setTeachers(data));
 
-  };*/}
+  };*/
 
   const handleAddTeacher = () => {
   const newTeacher = {
