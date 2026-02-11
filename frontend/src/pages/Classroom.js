@@ -6,7 +6,7 @@ export default function Classroom() {
   const [capacity, setCapacity] = useState("");
   const [editIndex, setEditIndex] = useState(null);
   
-  const API = "http://127.0.0.1:5000/classrooms";
+  const API = "https://timetable-backend-sjr8.onrender.com/classrooms";
   const token = localStorage.getItem("token");
 
   useEffect(() =>{

@@ -24,7 +24,7 @@ export default function Generate() {
 
   useEffect(() => {
 
-  fetch("http://127.0.0.1:5000/divisions", {headers})
+  fetch("https://timetable-backend-sjr8.onrender.com/divisions", {headers})
       .then(res => res.json())
       .then(data => setDivisions(data));
   }, []);
@@ -67,7 +67,7 @@ export default function Generate() {
 
   const token = localStorage.getItem("token");
 
-  fetch("http://127.0.0.1:5000/generate-timetable", {
+  fetch("https://timetable-backend-sjr8.onrender.com/generate-timetable", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

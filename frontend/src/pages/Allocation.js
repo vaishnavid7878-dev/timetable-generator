@@ -48,37 +48,37 @@ export default function Allocation() {
   }, [token]);
 
   const fetchTeachers = async () => {
-    const res = await fetch("http://127.0.0.1:5000/teachers", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/teachers", { headers });
     const data = await res.json();
     setTeachers(data);
   };
 
   const fetchSubjects = async () => {
-    const res = await fetch("http://127.0.0.1:5000/subjects", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/subjects", { headers });
     const data = await res.json();
     setSubjects(data);
   };
   
   const fetchDivisions = async () => {
-    const res = await fetch("http://127.0.0.1:5000/divisions", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/divisions", { headers });
     const data = await res.json();
     setDivisions(data);
   };
 
   const fetchClassrooms = async () => {
-    const res = await fetch("http://127.0.0.1:5000/classrooms", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/classrooms", { headers });
     const data = await res.json();
     setClassrooms(data);
   };
 
   const fetchLabs = async () => {
-    const res = await fetch("http://127.0.0.1:5000/labs", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/labs", { headers });
     const data = await res.json();
     setLabs(data);
   };
 
   const fetchAllocations = async () => {
-    const res = await fetch("http://127.0.0.1:5000/allocations", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/allocations", { headers });
     const data = await res.json();
     setAllocations(data);
   };

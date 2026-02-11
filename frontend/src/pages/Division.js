@@ -13,7 +13,7 @@ export default function Division() {
 
   // ===== Fetch Divisions =====
   const fetchDivisions = async () => {
-    const res = await fetch("http://127.0.0.1:5000/divisions", { headers });
+    const res = await fetch("https://timetable-backend-sjr8.onrender.com/divisions", { headers });
     const data = await res.json();
     setDivisions(data);
   };

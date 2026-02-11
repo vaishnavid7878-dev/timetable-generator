@@ -13,7 +13,7 @@ export default function Subjects() {
   const [editIndex, setEditIndex] = useState(null);
 
   //const user = JSON.parse(localStorage.getItem("user"));
-  const API = "http://127.0.0.1:5000/subjects";
+  const API = "https://timetable-backend-sjr8.onrender.com/subjects";
   const token = localStorage.getItem("token");
 
   useEffect(() => {

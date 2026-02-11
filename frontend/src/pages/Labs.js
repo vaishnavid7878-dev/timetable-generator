@@ -7,11 +7,11 @@ export default function Labs() {
   const [capacity, setCapacity] = useState("");
   const [subjects, setSubjects] = useState([]);
   const [subjectId, setSubjectId] = useState("");
-  const SUBJECT_API = "http://127.0.0.1:5000/subjects";
+  const SUBJECT_API = "https://timetable-backend-sjr8.onrender.com/subjects";
   const [editIndex, setEditIndex] = useState(null);
 
   //const user = JSON.parse(localStorage.getItem("user"));
-  const API = "http://127.0.0.1:5000/labs";
+  const API = "https://timetable-backend-sjr8.onrender.com/labs";
   const token = localStorage.getItem("token");
 
   useEffect(() =>{
