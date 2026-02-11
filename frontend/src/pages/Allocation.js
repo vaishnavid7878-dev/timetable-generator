@@ -143,8 +143,8 @@ export default function Allocation() {
     };
 
     const url = editId
-      ? `http://127.0.0.1:5000/allocations/${editId}`
-      : "http://127.0.0.1:5000/allocations";
+      ? `https://timetable-backend-sjr8.onrender.com/allocations/${editId}`
+      : "https://timetable-backend-sjr8.onrender.com/allocations";
 
     const method = editId ? "PUT" : "POST";
     await fetch(url, {
@@ -173,7 +173,7 @@ export default function Allocation() {
   };
   // ================= DELETE =================
   const deleteAllocation = async (id) => {
-    await fetch(`http://127.0.0.1:5000/allocations/${id}`, {
+    await fetch(`https://timetable-backend-sjr8.onrender.com/allocations/${id}`, {
       method: "DELETE",
       headers
     });
