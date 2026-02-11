@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import jsPDF from "jspdf";
 import autoTable, { Cell } from "jspdf-autotable";
-import { useNavigate } from "react-router-dom";
+//import { useNavigate } from "react-router-dom";
 
 export default function Generate() {
   const [timetable, setTimetable] = useState(null);

@@ -18,6 +18,7 @@ export default function Division() {
     setDivisions(data);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchDivisions();
   }, []);

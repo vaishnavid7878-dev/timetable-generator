@@ -9,6 +9,7 @@ export default function Classroom() {
   const API = "https://timetable-backend-sjr8.onrender.com/classrooms";
   const token = localStorage.getItem("token");
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() =>{
     fetch(API, {
       headers: {

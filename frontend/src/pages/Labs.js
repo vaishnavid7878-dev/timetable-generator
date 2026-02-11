@@ -14,6 +14,7 @@ export default function Labs() {
   const API = "https://timetable-backend-sjr8.onrender.com/labs";
   const token = localStorage.getItem("token");
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() =>{
     if (!token) return;
 

@@ -17,14 +17,14 @@ export default function Allocation() {
   const [divisions, setDivisions] = useState([]);
   const [division, setDivision] = useState("");
 
-  const [] = useState({
+ /* const [] = useState({
     teacher_id: "",
     subject_id: "",
     classroom_id: "",
     lab_id: "",
     division_id: "",
     hours: ""
-  })
+  })*/
 
   const batches = [...new Set(labs.map(l => l.batch))];
   const token = localStorage.getItem("token");
@@ -35,6 +35,7 @@ export default function Allocation() {
   };
 
   // ================= LOAD DATA =================
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     if (!token) return;
 
