@@ -24,7 +24,8 @@ export default function Allocation() {
     lab_id: "",
     division_id: "",
     hours: ""
-  })*/
+  })
+  */
 
   const batches = [...new Set(labs.map(l => l.batch))];
   const token = localStorage.getItem("token");
