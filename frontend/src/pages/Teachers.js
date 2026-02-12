@@ -163,7 +163,7 @@ export default function Teachers() {
         </button>*/}
 
         <button style={styles.addBtn} onClick={handleAddTeacher}>
-          {/*{editIndex === null ? "Add Teacher" : "Update Teacher"}*/}
+          {editIndex === null ? "Add Teacher" : "Update Teacher"}
         </button>
         </div>
       </div>
